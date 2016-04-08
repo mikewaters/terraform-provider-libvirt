@@ -51,7 +51,7 @@ func newDomainDef() defDomain {
 	domainDef.Os = defOs{}
 	domainDef.Os.Type = defOsType{}
 	domainDef.Os.Type.Arch = "x86_64"
-	domainDef.Os.Type.Machine = "pc-i440fx-2.4"
+	domainDef.Os.Type.Machine = "pc-i440fx-2.1"
 	domainDef.Os.Type.Name = "hvm"
 
 	domainDef.Memory = defMemory{}
